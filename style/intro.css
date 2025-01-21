@@ -1,0 +1,16 @@
+.intro {
+  display: flex;
+  flex-direction: row;
+  /* position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 0; */
+
+  height: 400px;
+  background-color: rgb(124, 126, 126);
+}
+
+.avatar {
+  height : 450px;
+}

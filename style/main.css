@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+}
+.body-page {
+  display: flex;
+  box-shadow: 0 -2px 10px 0px lightblue;
+  height: 1000px;
+  background-color: rgb(26, 26, 26);
+  /* position: relative;
+  top: 400px;
+  z-index: 1; */
+}
