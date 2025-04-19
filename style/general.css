@@ -1,0 +1,13 @@
+/* style/general.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+  background-color: rgb(33, 33, 33);
+  color: white;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}

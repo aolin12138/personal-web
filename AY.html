@@ -1,32 +1,65 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>
-      Aolin Yang
-    </title>
 
-    <link rel = "stylesheet" href = "style/main.css">
-    <link rel = "stylesheet" href = "style/intro.css">
-    <link rel = "stylesheet" href = "style/general.css">
-    <link rel = "stylesheet" href = "style/header.css">
-  </head>
+<head>
+  <title>
+    Aolin Yang
+  </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <body>
-    <div class = "main-body">
-      <div class = "header">
-      </div>
-  
-      <div class = "intro">
-        <img class = "avatar" src = "images/avatar.png">
-      </div>
-  
-      <div class = "body-page">
-        
-      </div>
+  <link rel="stylesheet" href="style/main.css">
+  <link rel="stylesheet" href="style/intro.css">
+  <link rel="stylesheet" href="style/general.css">
+  <link rel="stylesheet" href="style/header.css">
+</head>
+
+<body>
+  <div class="main-body">
+    <div class="header">
+      <nav class="navbar">
+        <ul>
+          <li><a href="#intro">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </div>
-    <script>
-      
-    </script>
-  </body>
+
+    <!-- <div class="intro">
+      <img class="avatar" src="images/avatar.png">
+    </div> -->
+
+    <section id="intro" class="section intro-section">
+      <img class="intro-avatar" src="images/avatar.png" alt="Aolin Yang">
+      <h1>Hello, I'm Aolin Yang</h1>
+      <p>I'm a creative, challenging machine learning software engineer passionate about crafting innovative solutions.
+      </p>
+    </section>
+
+    <section id="projects" class="section projects-section">
+      <h2>My Projects</h2>
+      <div class="projects-container">
+        <div class="project">
+          <h3>Project Title 1</h3>
+          <p>Brief description of project 1.</p>
+          <video src="videos/project1-demo.mp4" controls></video>
+          <a href="https://github.com/aolin12138/project1" target="_blank">View on GitHub</a>
+        </div>
+        <!-- Add more .project modules here -->
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <h2>Contact Me</h2>
+      <form id="contact-form">
+        <input type="email" name="email" placeholder="Your email" required>
+        <textarea name="message" rows="5" placeholder="Your message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </div>
+  <script src="script/main.js"></script>
+</body>
 
 </html>

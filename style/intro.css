@@ -1,16 +1,18 @@
-.intro {
-  display: flex;
-  flex-direction: row;
-  /* position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 0; */
-
-  height: 400px;
-  background-color: rgb(124, 126, 126);
+/* style/intro.css */
+.intro-section {
+  padding: 8rem 2rem 4rem;
+  /* account for fixed header */
+  text-align: center;
 }
 
-.avatar {
-  height : 450px;
+.intro-avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.intro-section h1 {
+  margin: 0.5rem 0;
 }
